@@ -11,8 +11,8 @@ from spotipy.oauth2 import SpotifyOAuth
 import qtawesome as qta  # Import QtAwesome for FontAwesome icons
 
 # Spotify authentication credentials
-client_id = '3fb73f276ec048b78eff8151cee5563c'  # Replace with your Spotify client ID
-client_secret = 'e8d229b5cc704e4d9c29bbd62957f93d'  # Replace with your Spotify client secret
+client_id = 'your_client_id_here'
+client_secret = 'your_client_secret_here'
 redirect_uri = 'http://localhost:8888/callback'
 
 # Updated scope with 'user-read-playback-state'
